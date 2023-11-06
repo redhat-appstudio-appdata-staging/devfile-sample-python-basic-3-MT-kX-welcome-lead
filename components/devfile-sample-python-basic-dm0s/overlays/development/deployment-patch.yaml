@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-dm0s
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/mkosiarc-tenant/devfile-sample-python-basic-3/devfile-sample-python-basic-dm0s@sha256:12839fde66cf110c60c0028eaaf4475a385b7f2031c5bc5f6cc5fae4b875a12f
+        name: my-python
+        resources: {}
+status: {}
